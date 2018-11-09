@@ -19,5 +19,5 @@ Package.onUse(api => {
         { weak: true }
     );
     api.addFiles('notice.js');
-    api.addFiles('github.js');
+    api.addFiles('hpid.js');
 });
