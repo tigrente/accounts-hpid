@@ -1,6 +1,6 @@
 Package.describe({
     summary: 'Login service for HP-ID accounts',
-    version: '0.0.1',
+    version: '0.0.2',
 });
 
 Package.onUse(api => {
