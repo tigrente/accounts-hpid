@@ -1,3 +1,5 @@
+//todo: Add testing components
+
 Package.describe({
     name: 'tigrente:accounts-hpid',
     summary: 'Login service for HP-ID accounts',
