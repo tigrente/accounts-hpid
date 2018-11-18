@@ -13,11 +13,11 @@ Package.onUse(api => {
     api.imply('accounts-base', ['client', 'server']);
 
     api.use('accounts-oauth', ['client', 'server']);
-    api.use('hpid-oauth');
-    api.imply('hpid-oauth');
+    api.use('tigrente:hpid-oauth');
+    api.imply('tigrente:hpid-oauth');
 
     api.use(
-        ['accounts-ui', 'hpid-config-ui'],
+        ['accounts-ui', 'tigrente:hpid-config-ui'],
         ['client', 'server'],
         { weak: true }
     );
