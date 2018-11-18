@@ -2,8 +2,8 @@ Package.describe({
     name: 'tigrente:accounts-hpid',
     summary: 'Login service for HP-ID accounts',
     documentation: 'README.md',
-    version: '0.0.9',
-    git: 'https://github.com/tigrente/accounts-hpid'
+    git: 'https://github.com/tigrente/accounts-hpid',
+    version: '1.0.0',
 });
 
 Package.onUse(api => {
