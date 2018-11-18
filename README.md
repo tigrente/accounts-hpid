@@ -1,4 +1,4 @@
-# accounts-hpid
+# tigrente:accounts-hpid
 [Source code of development version](https://github.com/tigrente/accounts-hpid)
 ***
 
