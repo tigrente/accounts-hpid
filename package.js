@@ -8,12 +8,12 @@ Package.describe({
 
 Package.onUse(api => {
     api.use('ecmascript@0.1.2');
-    api.use('accounts-base', ['client', 'server']);
+    api.use('accounts-base@1.4.3', ['client', 'server']);
     // Export Accounts (etc) to packages using this one.
     api.imply('accounts-base', ['client', 'server']);
 
-    api.use('accounts-oauth', ['client', 'server']);
-    api.use('tigrente:hpid-oauth');
+    api.use('accounts-oauth@1.1.16', ['client', 'server']);
+    api.use('tigrente:hpid-oauth@0.1.0');
     api.imply('tigrente:hpid-oauth');
 
     api.use(
