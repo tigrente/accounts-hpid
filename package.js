@@ -17,7 +17,7 @@ Package.onUse(api => {
     api.imply('tigrente:hpid-oauth');
 
     api.use(
-        ['accounts-ui', 'tigrente:hpid-config-ui'],
+        ['accounts-ui@1.3.1', 'tigrente:hpid-config-ui@0.0.3'],
         ['client', 'server'],
         { weak: true }
     );
