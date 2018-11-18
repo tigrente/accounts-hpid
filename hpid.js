@@ -19,7 +19,7 @@ if (Meteor.isClient) {
         // not sure whether the hpid api can be used from the browser,
         // thus not sure if we should be sending access tokens; but we do it
         // for all other oauth2 providers, and it may come in handy.
-        forLoggedInUser: ['services.hpid'],
+        forLoggedInUser: ['services.hpid', ],
         forOtherUsers: ['services.hpid.username']
     });
 }
