@@ -3,11 +3,11 @@ Package.describe({
     summary: 'Login service for HP-ID accounts',
     documentation: 'README.md',
     git: 'https://github.com/tigrente/accounts-hpid',
-    version: '1.0.0',
+    version: '0.1.0',
 });
 
 Package.onUse(api => {
-    api.use('ecmascript');
+    api.use('ecmascript@0.1.2');
     api.use('accounts-base', ['client', 'server']);
     // Export Accounts (etc) to packages using this one.
     api.imply('accounts-base', ['client', 'server']);
